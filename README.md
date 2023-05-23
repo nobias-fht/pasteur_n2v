@@ -9,7 +9,7 @@ the 31.05.23.
 1. Clone this repository
 
     ```bash
-    git clone https://github.com/nobias-fht/advanced-scripting.git
+    git clone https://github.com/nobias-fht/restoration.git
     ```
 
 2. In a conda env, install the relevant packages:
