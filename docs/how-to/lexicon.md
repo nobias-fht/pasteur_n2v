@@ -37,7 +37,7 @@ tags:
 ??? example "Patch size"
     In order to "fit" in the GPU memory, which is often the limiting factor,
     images need to be all cropped. What the network is trained on is a number
-    of patches, i.e. image crops. These patches are all the same size and 
+    of patches, i.e. image crops. These patches are all the same size and
     are aggregated in batches. A single batch is presented to the network during
     a single step of each epoch.
 
@@ -66,8 +66,8 @@ tags:
     TODO
 
 ??? example "Weights"
-    The parameters of a Model that define all the neural network node 
+    The parameters of a Model that define all the neural network node
     calculations.
 
-
-
+!!!Note
+    - More reading TODO

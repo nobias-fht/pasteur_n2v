@@ -4,12 +4,24 @@ nav:
   - Home:
       - index.md
       - learning_objective.md
+  - Getting started:
+      - getting_started/index.md
+      - getting_started/connecting_to_hpc.md
+      - getting_started/starting_job.md
+  - CARE:
+      - care/index.md
+      - care/environment.md
+      - care/port_forwarding.md
+      - care/running_care.md
+      - care/questions.md
+      - care/running_n2n.md
   - How-To:
       - how-to/index.md
       - how-to/hpc_help.md
       - how-to/notebook_help.md
       - how-to/lexicon.md
   - future_courses.md
+  - demo.md
 
 theme:
   name: material

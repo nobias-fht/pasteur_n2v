@@ -13,15 +13,15 @@ tags:
 
 ```
 
-
 ## Check if job is running
 
 ```bash
 squeue | grep <your name>
 ```
 
-
 ## Port forwarding crash course
 
-
 TODO
+
+!!!Note
+    - More reading TODO
