@@ -1,15 +1,10 @@
 # Getting started
 
-During this course, we will run deep learning algorithms on the HPC. To this
-purpose, we will use `jupyte notebook`.
+Neural networks can do useful things. Their deployment within user-friendly
+tools is, unfortunately, lacking behind. Hence, methods we would like to apply
+to our data are not available in Fiji or ilastik quite yet. The latest methods
+can only be used by the ones “brave” enough to expose themselves to some
+amount of computer source code...
 
-Importantly, in order to visualize the notebooks on your machine, we will need
-to do **port forwarding**. This requires sending the visual information over
-`ssh` to your machine, so as to display it your local browser.
-
-In the next sections, we run through an example on how to do this.
-
-!!!Note
-    - [How-Tos](https://nobias-fht.github.io/restoration/how-to/)
-    - [HPC reference](https://moocs.pasteur.fr/courses/course-v1:Institut_Pasteur+DSI_01+1/about)
-    - [Jupyter reference](https://docs.jupyter.org/en/latest/)
+Today we will all be brave! Now, please take a seat, open a browser, and buckle
+up.

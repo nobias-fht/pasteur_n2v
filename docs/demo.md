@@ -9,6 +9,10 @@ tags:
     This is a demo of the markdown syntax used in this documentation. It is not
     part of the site.
 
+!!!Warning
+    This is a demo of the markdown syntax used in this documentation. It is not
+    part of the site.
+
 ```python linenums="1"  title="my_file.py"
 import numpy as np
 import matplotlib.pyplot as plt
