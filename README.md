@@ -18,14 +18,7 @@ the 31.05.23.
     pip install -r requirements.txt
     ```
 
-3. Install the commit pre-hooks
-
-    ```bash
-    pip install pre-commit
-    pre-commit install
-    ```
-
-4. Then generate the site:
+3. Then generate the site:
 
     ```bash
     mkdocs serve
