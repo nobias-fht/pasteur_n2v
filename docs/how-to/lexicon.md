@@ -50,7 +50,7 @@ lexicon we adopt definition that fit the
 ??? example "Loss function"
     Function aimed at judging "how good" the network performs by comparing
     the prediction output to a "ground-truth" value. Throughout training,
-    we vizualise the loss function on both the training and validation
+    we visualise the loss function on both the training and validation
     sets in order to assess how well the training is going.
 
 ??? example "Neuron"

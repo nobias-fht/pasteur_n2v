@@ -52,7 +52,7 @@ you and with the TAs.
     different data that the one you want to train on?
 
 ??? question "Learning rate"
-    The notebook states that "it is adviseable to also load the learning rate
+    The notebook states that "it is advisable to also load the learning rate
     that was used when the training ended". Why is that?
 
 ## 4.1 Prepare the training data and model

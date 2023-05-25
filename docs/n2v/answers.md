@@ -107,7 +107,7 @@ answer.
     than the model is trained to perform well on your type of data.
 
 ??? question "Learning rate"
-    The notebook states that "it is adviseable to also load the learning rate
+    The notebook states that "it is advisable to also load the learning rate
     that was used when the training ended". Why is that?
 
     => If you are training on the same images, or on very similar images, then
@@ -241,7 +241,7 @@ a few more questions to help grasp why.
 ??? question "Structured noise"
     How can structured noise affect N2V performances?
 
-    => Structured noise is noise correlated accross pixels. This violates the
+    => Structured noise is noise correlated across pixels. This violates the
     main N2V assumption. Other algorithms have been designed to tackle
     structured noise, such as structN2V and HDN.
 
