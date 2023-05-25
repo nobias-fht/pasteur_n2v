@@ -78,7 +78,7 @@ lexicon we adopt definition that fit the
 ??? example "Test set"
     A set of images that the network never saw during training. It is important
     for these images never to be added to the training or the validation set.
-    The test set is used to assess the performances of the network on unsee
+    The test set is used to assess the performances of the network on unseen
     data, that is to say how well it generalizes to similar images.
 
 ??? example "Training"
