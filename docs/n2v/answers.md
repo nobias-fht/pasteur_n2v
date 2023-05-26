@@ -20,10 +20,10 @@ answer.
 ??? question "Default number of steps"
     What is the default value of the number of steps? And why?
 
-    => The default value is the number of patches divided by the batch size.
-    The batch size is the number of patches that are grouped at each step
-    iteration. Therefore, having the number of steps divided by the batch size
-    means that during each epoch, the network sees all patches.
+    => The default value is the number of patches divided by the batch size. Recall that the batch size is the number of patches that are seen at each step. So, for all of the patches to be seen during one epoch, the of number of steps needs to be equal to the total numbert of patches divided by the batch size. In effect:
+
+    steps = total patches / patches per step
+
 
 ??? question "Lots of steps or lots of epochs?"
     In the case of our specific implementation, given a constant
@@ -34,7 +34,7 @@ answer.
     the whole dataset has been shown to the network. The number of steps
     determines how much of the whole dataset is seen during each epoch. The
     number of epochs gives us timepoints at which to examine the performances.
-    In general, the community prefers to have a number of step corresponding
+    In general, the community prefers to have a number of steps corresponding
     to the whole dataset being seen during an epoch. This makes the loss curve
     easier to interpret.
 
@@ -77,12 +77,12 @@ answer.
     It is important that the augmentations correspond to something that happens
     to the objects in the image. For instance, you would not flip vertically
     landscape images because most likely the sky is never at the bottom of the
-    image.
+    image. You could, however, flip this image horizontally.
 
 ??? question "Why data augmentation"
     Why is data augmentation helping the network to learn and generalize better?
 
-    => Simply by multiplying the number of images and adding diversity to the
+    => Simply by increasing the number of images and the diversity in the
     dataset.
 
 ??? question "Other types of data augmentations"
@@ -102,7 +102,7 @@ answer.
     different data that the one you want to train on?
 
     => Using a pre-trained network can be useful as this network might have
-    learned to something well, possible on a lot more data than you have. By
+    learned to something well, possibly on a lot more data than you have. By
     re-training the model, also called fine-tuning, you want to make sure
     than the model is trained to perform well on your type of data.
 
@@ -137,10 +137,10 @@ answer.
     => Here are the answers:
 
     1. The `means` and `stds` deviation are the means and standard deviations of
-    the trainign dataset pixel values. They are used to normalize the patches.
+    the training dataset pixel values. They are used to normalize the patches.
     this allows to have pixel values in similar ranges across patches, leading
     to more stable training.
-    2. The UNet depths is 2 by default. This is the number of downsampling and
+    2. The UNet depth is 2 by default. This is the number of downsampling and
     upsampling that the UNet performs.
     3. The loss is `mse`, which stands for `mean square error`.
 
@@ -157,7 +157,7 @@ answer.
     N2V is a very peculiar deep-learning algorithm. It is a so-called
     self-supervised method. What is used as "ground-truth" in N2V?
 
-    => The "ground-truth" is the actual pixel value of the noisy pixel that
+    => The "ground-truth" is the actual pixel value of the noisy pixels that
     are masked during training.
 
 ??? question "N2V loss"
@@ -216,7 +216,7 @@ a few more questions to help grasp why.
 ??? question "Deconvolution"
     Is N2V some sort of deconvolution?
 
-    => Absolutely not! Deconvolution uses an apporximation of the PSF to
+    => Absolutely not! Deconvolution uses an approximation of the PSF to
     estimate the image without the effect of diffraction. N2V only estimates
     the amount of per pixel noise.
 
