@@ -124,6 +124,18 @@ answer.
     With a patch size of 64 pixels, that leads to:
     $64^2 * 0.2 / 100 = 8$ pixels.
 
+??? question "Training dataset dimensions"
+    What are the dimensions of the training set? What is the last dimension?
+
+    => Default is (512, 64, 64, 1). The channel dimension is at the end. If your
+    images are multichannel, they should end up there. But careful! The channel
+    dimension is necessary due to the netwrok architecture. If you have multiple
+    channels, they will be aggregated and the network will learn noise model
+    and image features from both channels together. That is usually not a good
+    idea.
+    The reason to have the channel dimension as is, is to be compatible with
+    RGB images.
+
 ??? question "Configuration"
     The configuration is printed to the console on the notebook. Yes yes, it is
     the very long one-liner that starts with N2VConfig.
@@ -149,7 +161,8 @@ answer.
 ??? question "Learning rate"
     Now that we are training. How is the learning rate changing?
 
-    => Every now and then, at the end of an epoch, the learning rate is halved.
+    => Every now and then, at the end of an epoch, the learning rate is halved
+    after 10 epochs without improvemnt in loss.
 
 ## 5.1 Inspection of the loss function
 

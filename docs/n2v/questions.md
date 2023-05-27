@@ -60,6 +60,9 @@ you and with the TAs.
 ??? question "Number of masked pixels"
     How many pixels are masked per patches?
 
+??? question "Training dataset dimensions"
+    What are the dimensions of the training set? What is the last dimension?
+
 ??? question "Configuration"
     The configuration is printed to the console on the notebook. Yes yes, it is
     the very long one-liner that starts with N2VConfig.
