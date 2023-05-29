@@ -1,5 +1,0 @@
----
-tags:
-  - deep-learning
-  - help
----

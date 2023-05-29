@@ -1,11 +1,13 @@
-site_name: nobias restoration
+site_name: NEUBIAS - n2v
 
 nav:
   - Home:
       - index.md
       - learning_objectives.md
+      - introduction_to_neural_net.md
   - Getting started:
       - getting_started/index.md
+      - getting_started/zero_cost.md
   - ZeroCost:
       - n2v_colab/index.md
       - n2v_colab/n2v_colab.md
@@ -21,6 +23,7 @@ nav:
   - How-To:
       - how-to/index.md
       - how-to/lexicon.md
+  - napari.md
   - future_courses.md
   - demo.md
 
