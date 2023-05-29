@@ -5,14 +5,27 @@ nav:
       - index.md
       - learning_objectives.md
       - introduction_to_neural_net.md
-  - Getting started:
-      - getting_started/index.md
-      - getting_started/zero_cost.md
   - ZeroCost:
       - n2v_colab/index.md
+      - n2v_colab/zero_cost.md
       - n2v_colab/n2v_colab.md
       - n2v_colab/questions.md
-      - n2v_colab/answers.md
+      - n2v_colab/31_training_parameters.md
+      - n2v_colab/31_training_parameters_answers.md
+      - n2v_colab/32_data_augmentation.md
+      - n2v_colab/32_data_augmentation_answers.md
+      - n2v_colab/33_pre_trained.md
+      - n2v_colab/33_pre_trained_answers.md
+      - n2v_colab/41_model.md
+      - n2v_colab/41_model_answers.md
+      - n2v_colab/42_training.md
+      - n2v_colab/42_training_answers.md
+      - n2v_colab/51_inspection.md
+      - n2v_colab/51_inspection_answers.md
+      - n2v_colab/n2v_training.md
+      - n2v_colab/n2v_training_answers.md
+      - n2v_colab/general.md
+      - n2v_colab/general_answers.md
   - HPC:
       - n2v_hpc/index.md
       - n2v_hpc/activate_env.md
@@ -20,11 +33,9 @@ nav:
       - n2v_hpc/start_jupyter.md
       - n2v_hpc/train.md
       - n2v_hpc/bonus.md
-  - How-To:
-      - how-to/index.md
-      - how-to/lexicon.md
   - napari.md
   - future_courses.md
+  - lexicon.md
   - demo.md
 
 theme:

@@ -1,6 +1,7 @@
 # Future courses
 
-It is difficult to teach deep-learning in 3h, how about a week? Or even two?
+It is difficult to teach deep-learning in 3h. Can you imagine how much you could
+learn in a week? Or even two?
 
 ## DL4MIA
 
