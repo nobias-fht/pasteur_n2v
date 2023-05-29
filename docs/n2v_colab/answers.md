@@ -20,7 +20,7 @@ answer.
 ??? question "Default number of steps"
     What is the default value of the number of steps? And why?
 
-    => The default value is the number of patches divided by the batch size. Recall that the batch size is the number of patches that are seen at each step. So, for all of the patches to be seen during one epoch, the of number of steps needs to be equal to the total numbert of patches divided by the batch size. In effect:
+    => The default value is the number of patches divided by the batch size. Recall that the batch size is the number of patches that are seen at each step. So, for all of the patches to be seen during one epoch, the of number of steps needs to be equal to the total number of patches divided by the batch size. In effect:
 
     steps = total patches / patches per step
 
@@ -128,7 +128,7 @@ answer.
 
     => Default is (512, 64, 64, 1). The channel dimension is at the end. If your
     images are multichannel, they should end up there. But careful! The channel
-    dimension is necessary due to the netwrok architecture. If you have multiple
+    dimension is necessary due to the network architecture. If you have multiple
     channels, they will be aggregated and the network will learn noise model
     and image features from both channels together. That is usually not a good
     idea.
