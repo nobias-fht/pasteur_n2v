@@ -6,11 +6,18 @@ nav:
       - learning_objectives.md
   - Getting started:
       - getting_started/index.md
-  - N2V:
-      - n2v/index.md
-      - n2v/n2v_colab.md
-      - n2v/questions.md
-      - n2v/answers.md
+  - ZeroCost:
+      - n2v_colab/index.md
+      - n2v_colab/n2v_colab.md
+      - n2v_colab/questions.md
+      - n2v_colab/answers.md
+  - HPC:
+      - n2v_hpc/index.md
+      - n2v_hpc/activate_env.md
+      - n2v_hpc/data.md
+      - n2v_hpc/start_jupyter.md
+      - n2v_hpc/train.md
+      - n2v_hpc/bonus.md
   - How-To:
       - how-to/index.md
       - how-to/lexicon.md

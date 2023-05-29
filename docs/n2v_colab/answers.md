@@ -24,7 +24,6 @@ answer.
 
     steps = total patches / patches per step
 
-
 ??? question "Lots of steps or lots of epochs?"
     In the case of our specific implementation, given a constant
     `number_of_steps * number_of_epochs`. Is it better to train with

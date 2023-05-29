@@ -9,8 +9,9 @@ repos:
     hooks:
       - id: markdownlint
         args: [--fix, --disable, MD013, --]
-  - repo: https://github.com/Riverside-Healthcare/djLint
-    rev: v1.19.16
+
+  # notebooks
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.6.1
     hooks:
-      - id: djlint-django
-        args: [--reformat]
+      - id: nbstripout

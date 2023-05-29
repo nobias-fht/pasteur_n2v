@@ -1,7 +1,7 @@
 # Welcome
 
-This repository contain the instructions for the workshop "Deep-learning 
-retoration for microscopy images", held at Pasteur Institute (Paris) on 
+This repository contains the instructions for the workshop "Deep-learning
+retoration for microscopy images", held at Pasteur Institute (Paris) on
 the 31.05.23.
 
 ## How to run this site locally
