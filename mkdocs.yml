@@ -4,7 +4,6 @@ nav:
   - Home:
       - index.md
       - learning_objectives.md
-      - introduction_to_neural_net.md
   - ZeroCost:
       - n2v_colab/index.md
       - n2v_colab/zero_cost.md
