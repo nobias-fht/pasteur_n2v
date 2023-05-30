@@ -1,3 +1,8 @@
+---
+tags:
+  - deep-learning
+  - questions
+---
 # 4.2 Training
 
 ??? question "Learning rate"

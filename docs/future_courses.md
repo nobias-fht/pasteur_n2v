@@ -1,7 +1,7 @@
 # Future courses
 
 It is difficult to teach deep-learning in 3h. Can you imagine how much you could
-learn in a week? Or even two?
+learn in a week? Or even two? Then apply to our courses!
 
 ## DL4MIA
 
@@ -10,8 +10,10 @@ Dates: **16.10.23 – 20.10.23**
     <img src="https://github.com/nobias-fht/restoration/blob/main/docs/images/DL4MIA_banner_2023.png?raw=true">
 </p>
 
-The NoBIAS facility will organize together with the Jug lab the "Deep-learning
-for microscopy image analysis" course in remote.
+The NoBIAS facility, together with the Jug lab, will organize the "Deep-learning
+for microscopy image analysis" course (remote).
+
+Lots of great speakers and many algorithms to try out on your own data! :rocket:
 
 Stay tuned for the official announcement and the application deadline!
 

@@ -1,11 +1,16 @@
+---
+tags:
+  - deep-learning
+  - questions
+---
 # 3.1 Training parameters
 
 ??? question "Number of images seen during training"
     Given the following parameters:
 
-    - `batch_size = 128`
-    - `number_of_steps = 100`
-    - `number_of_epoches = 200`
+    - `batch_size = 16`
+    - `number_of_steps = 200`
+    - `number_of_epoches = 50`
 
     How many images are seen during training in total? (including duplicates,
     because images are seen multiple times)
@@ -15,7 +20,7 @@
 
 ??? question "Lots of steps or lots of epochs?"
     In the case of our specific implementation, given a constant
-    `number_of_steps * number_of_epochs`. Is it better to train with
+    `number_of_steps * number_of_epochs`. Is it better
     to train with more steps or with more epochs?
 
 ??? question "Ratio between training and validation"

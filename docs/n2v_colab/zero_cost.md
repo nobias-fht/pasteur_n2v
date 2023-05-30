@@ -1,4 +1,10 @@
+---
+tags:
+  - help
+---
 # ZeroCostDL4Mic
+
+But first, what in the world is this long name?
 
 ZeroCostDL4Mic is a collection of Jupyter notebooks for Google Colab. They are
 meant to quickly get you started on learning how to use deep-learning methods

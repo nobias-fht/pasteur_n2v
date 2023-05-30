@@ -1,3 +1,7 @@
+---
+tags:
+  - help
+---
 # Noise2Void
 
 For this practical, you will need a Gmail address and a Google drive access,

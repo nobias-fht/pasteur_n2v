@@ -1,3 +1,8 @@
+---
+tags:
+  - deep-learning
+  - questions
+---
 # 5.1 Inspection of the loss function
 
 ??? question "N2V "ground-truth""

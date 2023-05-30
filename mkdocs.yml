@@ -34,7 +34,7 @@ nav:
   - napari.md
   - future_courses.md
   - lexicon.md
-  - demo.md
+  #- demo.md
 
 theme:
   name: material

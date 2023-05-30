@@ -1,7 +1,7 @@
 # Noise2Void practical
 
 In this 2h practical, we will get familiar with [Noise2Void](https://github.com/juglab/n2v),
-a self-supervised denoising algorithm that was introduced in the lecture.
+a self-supervised denoising algorithm that was introduced during the lecture.
 
 <p align="center">
     <img src="https://github.com/nobias-fht/restoration/blob/main/docs/images/n2v2_cover.png?raw=true">

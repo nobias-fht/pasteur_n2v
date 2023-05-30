@@ -1,3 +1,8 @@
+---
+tags:
+  - deep-learning
+  - questions
+---
 # 3.3 Pre-trained model
 
 ??? question "Using pre-trained weights"

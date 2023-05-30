@@ -1,7 +1,12 @@
-# 4.1 Preparing data and model
+---
+tags:
+  - deep-learning
+  - questions
+---
+# 4.1 Preparing the model
 
 ??? question "Number of masked pixels"
-    How many pixels are masked per patches?
+    How many pixels are masked per patche?
 
 ??? question "Training dataset dimensions"
     What are the dimensions of the training set? What is the last dimension?

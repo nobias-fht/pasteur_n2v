@@ -1,3 +1,8 @@
+---
+tags:
+  - deep-learning
+  - questions
+---
 # 3.2 Data augmentation
 
 ??? question "Data augmentation methods"

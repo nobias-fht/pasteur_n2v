@@ -1,4 +1,6 @@
 # Training
 
-Now you can simply try to adapt or follow first the training, then the
-prediction notebook!
+Now you are good to go. :rocket:
+
+Train a network using the first notebook, and predict on your images using
+the second one.
