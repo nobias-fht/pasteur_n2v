@@ -14,4 +14,7 @@ tags:
 The goal of this practical is to give you a better understanding of the
 steps necessary to apply N2V, as well as the means to do so.
 
-But first, a little bit a of vocabulary! :open_book:
+!!!Note
+    Refer to the [Lexicon](https://nobias-fht.github.io/pasteur_n2v/how-to/lexicon/)
+    when you have a doubt about the meaning of some of the deep-learning
+    related vocabulary!

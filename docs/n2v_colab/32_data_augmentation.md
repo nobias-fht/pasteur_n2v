@@ -1,7 +1,5 @@
 # 3.2 Data augmentation
 
-Section 3.2
-
 ??? question "Data augmentation methods"
     What types of data augmentation is performed in this notebook?
 

@@ -1,9 +1,8 @@
 # ZeroCostDL4Mic
 
-ZeroCostDL4Mic is a collection of (hopefully) self-explanatory Jupyter
-notebooks for Google Colab. They are meant to quickly get you started on
-learning how to use deep-learning methods specifically created for microscopy
-image analysis.
+ZeroCostDL4Mic is a collection of Jupyter notebooks for Google Colab. They are
+meant to quickly get you started on learning how to use deep-learning methods
+specifically created for microscopy image analysis.
 
 Google Colab itself provides the computations resources needed and does so at
 zero cost. ZeroCostDL4Mic is designed for researchers that have little or no

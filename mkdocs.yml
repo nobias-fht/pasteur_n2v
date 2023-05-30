@@ -9,7 +9,6 @@ nav:
       - n2v_colab/index.md
       - n2v_colab/zero_cost.md
       - n2v_colab/n2v_colab.md
-      - n2v_colab/questions.md
       - n2v_colab/31_training_parameters.md
       - n2v_colab/31_training_parameters_answers.md
       - n2v_colab/32_data_augmentation.md

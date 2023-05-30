@@ -1,7 +1,5 @@
 # 3.1 Training parameters
 
-Section 3.1.
-
 ??? question "Number of images seen during training"
     Given the following parameters:
 
