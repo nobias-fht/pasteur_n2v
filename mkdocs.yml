@@ -29,6 +29,7 @@ nav:
       - n2v_hpc/activate_env.md
       - n2v_hpc/data.md
       - n2v_hpc/start_jupyter.md
+      - n2v_hpc/watch_gpu.md
       - n2v_hpc/train.md
       - n2v_hpc/bonus.md
   - napari.md
